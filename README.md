@@ -1,4 +1,4 @@
-[![MasterHead](Documentation/logo-pcb.webp)](https://github.com/ton-org/PCB-Moteur-Liquide-Remplissage)
+[![MasterHead](Documentation/GAUL/logo-full.webp)](https://github.com/ton-org/PCB-Moteur-Liquide-Remplissage)
 
 <h1 align="center">PCB Moteur Liquide & Station de Remplissage</h1>
 
@@ -61,4 +61,4 @@ Pour les futures améliorations et évolutions, consultez la [roadmap](./Documen
 
 ---
 
-🏠 Retour à la [page d’accueil](https://github.com/ton-org)
+🏠 Retour à la [page d’accueil]([https://github.com/](https://github.com/GAULAvionique/NautilPCB/))
