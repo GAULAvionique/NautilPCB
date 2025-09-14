@@ -46,7 +46,7 @@ Découvrez le design et les schémas des PCB :
 
 Toutes les infos techniques et guides sont disponibles :  
 
-- [Schémas électriques](./Documentation/Schemas.md)  
+- [Schémas fonctionnels](./Documentation/Schemas.md)  
 - [Guide d’utilisation](./Documentation/Guide.md)
 - [Protocole d'armement](./Documentation/Protocole_Armement.md)
 - Autres ...  
