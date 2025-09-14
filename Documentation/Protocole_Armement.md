@@ -4,9 +4,21 @@ Ce document décrit la séquence d’armement et les états associés des diffé
 
 ---
 
-## ✅ **Étapes à suivre**
+## 🗂️ **Légende des States**
 
-### #1 – Startup
+- **CLOSED** → Valve fermée, aucun flux.  
+- **OPENS** → Valve s’ouvre, flux autorisé.  
+- **UNPOWERED** → Dispositif non alimenté.  
+- **POWERS (Burst)** → Alimentation activée brièvement.
+- **MONITORING** → Capteur actif et en surveillance continue.  
+- **DETECTS FULL TANK** → Capteur détecte un réservoir plein.  
+- **DETECTS IGNITION** → Capteur détecte l’allumage réussi.  
+
+---
+
+## ✅ **Séquences d'armement**
+
+### #1 – Startup  
 Mettre tous les systèmes dans leur état initial sécurisé.  
 
 | Device                          | State        |
@@ -27,7 +39,7 @@ Mettre tous les systèmes dans leur état initial sécurisé.
 
 ---
 
-### #2 – N2O Fill Start
+### #2 – N2O Fill Start  
 Démarrer le remplissage de N2O.  
 
 | Device           | State  |
@@ -36,7 +48,7 @@ Démarrer le remplissage de N2O.
 
 ---
 
-### #3 – N2O Fill Finish
+### #3 – N2O Fill Finish  
 Arrêter le remplissage lorsque le réservoir est plein.  
 
 | Device                  | State              |
@@ -46,7 +58,7 @@ Arrêter le remplissage lorsque le réservoir est plein.
 
 ---
 
-### #4 – Igniter Start
+### #4 – Igniter Start  
 Préparer l’allumage en activant les vannes d’allumeur et l’étincelle.  
 
 | Device            | State          |
@@ -57,7 +69,7 @@ Préparer l’allumage en activant les vannes d’allumeur et l’étincelle.
 
 ---
 
-### #5 – Engine Start
+### #5 – Engine Start  
 Déclencher le moteur et basculer sur les vannes principales.  
 
 | Device            | State             |
