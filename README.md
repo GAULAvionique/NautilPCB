@@ -61,4 +61,4 @@ Pour les futures améliorations et évolutions, consultez la [roadmap](./Documen
 
 ---
 
-🏠 Retour à la [page d’accueil]([https://github.com/](https://github.com/GAULAvionique/NautilPCB/))
+🏠 Retour au la [page d'accueil](https://github.com/GAULAvionique)
