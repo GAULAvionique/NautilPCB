@@ -55,6 +55,11 @@ Toutes les infos techniques et guides sont disponibles :
 
 Pour les futures améliorations et évolutions, consultez la [roadmap](./Documentation/Roadmap.md).
 
+## 📝 **Conventions de Commit**
+
+Ce projet suit les règles de [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) afin de garder un historique clair et cohérent.
+
+
 ## 👥 **Contributeurs**
 
 - ...
