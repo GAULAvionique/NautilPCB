@@ -29,7 +29,7 @@ Ils permettent de piloter, sécuriser et automatiser les étapes d'armements du 
 - Interface de contrôle via **microcontrôleur STM32**
 - Communication des commandes via RFD900x
 - Possiblité d'ajouter des régulateurs
-- -Autres ...
+- Autres ...
 
 ## 📷 **Images & Schémas**
 
