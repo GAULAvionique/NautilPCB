@@ -29,8 +29,8 @@ Mettre tous les systèmes dans leur état initial sécurisé.
 | N2O Flight Pressure Sensor      | MONITORING  |
 | N2O Igniter Valve               | CLOSED      |
 | IPA Igniter Valve               | CLOSED      |
-| Main N2O Valve                  | CLOSED      |
-| Main IPA Valve                  | CLOSED      |
+| N2O Main Valve                  | CLOSED      |
+| IPA Main Valve                  | CLOSED      |
 | Ignition Detector               | MONITORING  |
 | N2O Fill Valve                  | CLOSED      |
 | Thrust Load Cell (Test Stand)   | MONITORING  |
@@ -72,11 +72,20 @@ Préparer l’allumage en activant les vannes d’allumeur et l’étincelle.
 ### #5 – Engine Start  
 Déclencher le moteur et basculer sur les vannes principales.  
 
-| Device            | State             |
+| Device            | State            |
 |-------------------|------------------|
 | Ignition Detector | DETECTS IGNITION |
 | Spark Plug        | UNPOWERS         |
-| Main N2O Valve    | OPENS            |
-| Main IPA Valve    | OPENS            |
+| N2O Main Valve    | OPENS            |
+| IPA Main Valve    | OPENS            |
+
+---
+
+### #6 – Engine Finish  
+Fermeture des valves de l'igniter 1 à 3 secondes après l'ouverture des valves du main
+| Device            | State            |
+|-------------------|------------------|
+| N2O Igniter Valve | CLOSE            |
+| IPA Igniter Valve | CLOSE            |
 
 ---
